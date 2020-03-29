@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+form{
+    text-align: center;
+}
+body{
+    background-color: rgb(250, 99, 99);
+}
+.justify{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.justify-left{
+    height: 100%;
+    width: 100%;
+    background: bisque;
+}
+.align-items{
+    background: cornflowerblue;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 50;
+}
+.align-items-center{
+    height: 100%;
+    width: 100%;
+    background: rgb(236, 251, 152);
+    display: block;
+    text-align: center;
+}
+div{
+    display: flex;
+    background: linear-gradient(orange,red);
+    align-self: center;
+}
